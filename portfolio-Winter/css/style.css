@@ -7,19 +7,19 @@ body {
 }
 
 /* scrollbar for safari, chrome and edge */
-/* .prompt-box::-webkit-scrollbar {
+.prompt-box::-webkit-scrollbar {
   width: 8px;
-} */
+}
 
-/* .prompt-box::-webkit-scrollbar-track {
+.prompt-box::-webkit-scrollbar-track {
   background: none;
-} */
+}
 
-/* .prompt-box::-webkit-scrollbar-thumb {
+.prompt-box::-webkit-scrollbar-thumb {
   background-color: #0069cc;
   border-radius: 20px;
   border: 2px solid #ffffff;
-} */
+}
 
 h1 {
   position: absolute;
