@@ -1,0 +1,104 @@
+/* https://fonts.google.com/specimen/Josefin+Sans */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #cce6ff;
+}
+
+/* scrollbar for safari, chrome and edge */
+.prompt-box::-webkit-scrollbar {
+  width: 8px;
+}
+
+.prompt-box::-webkit-scrollbar-track {
+  background: none; /* color of the tracking area */
+}
+
+.prompt-box::-webkit-scrollbar-thumb {
+  background-color: #0069cc; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 2px solid #ffffff; /* creates padding around scroll thumb */
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.prompts {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 10px;
+  border-style: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+
+  background-color: #0069cc;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.prompts:hover {
+  background-color: #ffffff;
+  color: #0069cc;
+}
+
+.prompt-number {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  position: relative;
+  top: 0px;
+  text-align: center;
+}
+
+.long-text {
+  text-align: justify;
+  text-indent: 50px;
+  line-height: 30px;
+  margin-bottom: -10px;
+}
+
+.images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+
+.caption {
+  border: 1px solid #0069cc;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: -5px;
+  padding-bottom: -5px;
+}
+
+#title-of-prompt {
+  z-index: 10000;
+}
+
+.prompt-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: #ffffff;
+  padding: 50px;
+  height: 63vh;
+  border-radius: 20px 0px 0px 20px;
+
+  overflow: auto;
+  scrollbar-color: #0069cc #ffffff;
+  scrollbar-width: thin;
+}
